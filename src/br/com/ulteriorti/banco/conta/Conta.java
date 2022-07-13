@@ -8,6 +8,12 @@ public abstract class Conta implements IConta {
     protected Double saldo;
     protected String tipo;
 
+    public void setSenha(int senha) {
+        this.senha = senha;
+    }
+
+    protected int senha;
+
     public Conta() {
         this.agencia = AGENCIA_PADRAO;
     }

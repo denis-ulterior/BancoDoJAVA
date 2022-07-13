@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f7c4196-3046-418e-9cb7-f154c1686b18" name="Changes" comment="Correção código contas">
+    <list default="true" id="2f7c4196-3046-418e-9cb7-f154c1686b18" name="Changes" comment="Correção após testes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/Banco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cartao/CartaoDebito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cartao/CartaoDebito.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/carteira/Carteira.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/carteira/Carteira.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cliente/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cliente/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cliente/ClientePF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cliente/ClientePF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cliente/ICliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cliente/ICliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/ContaPoupanca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657724665728</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Correção após testes">
+      <created>1657728329335</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657728329335</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +194,7 @@
     <MESSAGE value="Expansao do projeto, implementações de classes e ajustes de assinaturas de metodos." />
     <MESSAGE value="Ajustes de contas" />
     <MESSAGE value="Correção código contas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correção código contas" />
+    <MESSAGE value="Correção após testes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção após testes" />
   </component>
 </project>

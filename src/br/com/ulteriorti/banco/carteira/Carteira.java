@@ -14,7 +14,8 @@ public class Carteira implements ICarteira{
     Cliente cliente;
     protected int idCarteiraCliente;
     protected CartaoCredito cartaoCredito;
-    protected CartaoDebito cartaoDebito;
+    protected CartaoDebito cartaoDebitoCC;
+    protected CartaoDebito cartaoDebitoCP;
     protected ContaCorrente contaCorrente;
     protected ContaPoupanca contaPoupanca;
 
@@ -22,6 +23,14 @@ public class Carteira implements ICarteira{
         this.cliente = cliente;
         this.idCarteiraCliente = contadorCarteiras;
         contadorCarteiras++;
+    }
+
+    public ContaCorrente getContaCorrente() {
+        return contaCorrente;
+    }
+
+    public ContaPoupanca getContaPoupanca() {
+        return contaPoupanca;
     }
 
     public Carteira(ClientePF cliente) {
@@ -34,13 +43,19 @@ public class Carteira implements ICarteira{
     @Override
     public void criarContaCorrente(int senha) {
     this.contaCorrente = new ContaCorrente();
-    if(cartaoDebito == null)
-        this.cartaoDebito = new CartaoDebito(this.contaCorrente);
+    this.contaCorrente.setSenha(senha);
+    if(cartaoDebitoCC == null)
+        this.cartaoDebitoCC = new CartaoDebito(this.contaCorrente);
     }
 
     @Override
     public void criarContaPoupanca(int senha, Double depositoInical) {
-        this.contaPoupanca = new ContaPoupanca(senha, depositoInical);
+        this.contaPoupanca = new ContaPoupanca(depositoInical);
+        this.contaPoupanca.setSenha(senha);
+        if(cartaoDebitoCP == null)
+            this.cartaoDebitoCP = new CartaoDebito(this.contaCorrente);
+
+
     }
 
     @Override
@@ -56,7 +71,8 @@ public class Carteira implements ICarteira{
                 ", contaCorrente=" + contaCorrente +
                 ", contaPoupanca=" + contaPoupanca +
                 ", cartaoCredito=" + cartaoCredito +
-                ", cartaoDebito=" + cartaoDebito +
+                ", cartaoDebitoCC=" + cartaoDebitoCC +
+                ", cartaoDebitoCP=" + cartaoDebitoCP +
 
                 '}';
     }

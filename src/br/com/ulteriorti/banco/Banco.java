@@ -1,7 +1,9 @@
 package br.com.ulteriorti.banco;
 
 import br.com.ulteriorti.banco.cliente.ClientePF;
+import br.com.ulteriorti.banco.conta.Conta;
 import br.com.ulteriorti.banco.conta.ContaCorrente;
+import br.com.ulteriorti.banco.conta.ContaPoupanca;
 
 public class Banco {
     public static void main(String[] args) {
@@ -18,9 +20,15 @@ public class Banco {
 //        cp.imprimirExtrato();
 //
         ClientePF cliente1 = new ClientePF("Denis", "000.000.000-00");
-        cliente1.cadastrarConta(123456, new ContaCorrente());
+        cliente1.cadastrarConta(1234, new ContaCorrente());
+        cliente1.cadastrarConta(132,new ContaPoupanca(300.00));
+        Conta contaADepositar = cliente1.getCarteira().getContaCorrente();
+        cliente1.depositar(100.00,contaADepositar);
+        contaADepositar = cliente1.getCarteira().getContaPoupanca();
+        cliente1.depositar(500.00,contaADepositar);
 
         cliente1.detalhesCarteira();
+
 
 
         //implementar classes
