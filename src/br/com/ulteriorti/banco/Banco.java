@@ -29,6 +29,10 @@ public class Banco {
 
         cliente1.detalhesCarteira();
 
+        cliente1.getCarteira().getCartaoDebitoCC().pagarCompra(80.00);
+
+        cliente1.detalhesCarteira();
+
 
 
         //implementar classes

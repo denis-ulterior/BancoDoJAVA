@@ -14,6 +14,19 @@ public class Carteira implements ICarteira{
     Cliente cliente;
     protected int idCarteiraCliente;
     protected CartaoCredito cartaoCredito;
+
+    public CartaoCredito getCartaoCredito() {
+        return cartaoCredito;
+    }
+
+    public CartaoDebito getCartaoDebitoCC() {
+        return cartaoDebitoCC;
+    }
+
+    public CartaoDebito getCartaoDebitoCP() {
+        return cartaoDebitoCP;
+    }
+
     protected CartaoDebito cartaoDebitoCC;
     protected CartaoDebito cartaoDebitoCP;
     protected ContaCorrente contaCorrente;

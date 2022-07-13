@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f7c4196-3046-418e-9cb7-f154c1686b18" name="Changes" comment="Implementação de deposito em conta especifica">
+    <list default="true" id="2f7c4196-3046-418e-9cb7-f154c1686b18" name="Changes" comment="Correção bug cartao poupança">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/Banco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cartao/CartaoDebito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cartao/CartaoDebito.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/carteira/Carteira.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/carteira/Carteira.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657731201950</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Correção bug cartao poupança">
+      <created>1657739595793</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657739595793</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +208,7 @@
     <MESSAGE value="Correção código contas" />
     <MESSAGE value="Correção após testes" />
     <MESSAGE value="Implementação de deposito em conta especifica" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação de deposito em conta especifica" />
+    <MESSAGE value="Correção bug cartao poupança" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção bug cartao poupança" />
   </component>
 </project>

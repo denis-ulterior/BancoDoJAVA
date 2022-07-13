@@ -10,8 +10,10 @@ public class CartaoDebito extends Cartao{
 
     @Override
     public boolean pagarCompra(Double valor) {
-        if(this.contaDoCartao.getSaldo() > valor)
+        if(this.contaDoCartao.getSaldo() > valor) {
+            this.contaDoCartao.sacar(valor);
             return true;
+        }
         return false;
     }
 
