@@ -53,7 +53,7 @@ public class Carteira implements ICarteira{
         this.contaPoupanca = new ContaPoupanca(depositoInical);
         this.contaPoupanca.setSenha(senha);
         if(cartaoDebitoCP == null)
-            this.cartaoDebitoCP = new CartaoDebito(this.contaCorrente);
+            this.cartaoDebitoCP = new CartaoDebito(this.contaPoupanca);
 
 
     }

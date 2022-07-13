@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f7c4196-3046-418e-9cb7-f154c1686b18" name="Changes" comment="Correção após testes">
+    <list default="true" id="2f7c4196-3046-418e-9cb7-f154c1686b18" name="Changes" comment="Implementação de deposito em conta especifica">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/Banco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/carteira/Carteira.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/carteira/Carteira.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cliente/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cliente/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/ContaPoupanca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657728329335</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implementação de deposito em conta especifica">
+      <created>1657731201950</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657731201950</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +198,7 @@
     <MESSAGE value="Ajustes de contas" />
     <MESSAGE value="Correção código contas" />
     <MESSAGE value="Correção após testes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correção após testes" />
+    <MESSAGE value="Implementação de deposito em conta especifica" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação de deposito em conta especifica" />
   </component>
 </project>
