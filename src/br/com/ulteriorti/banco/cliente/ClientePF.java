@@ -20,4 +20,14 @@ public class ClientePF extends Cliente {
     public void getNome() {
         System.out.println(this.nome);
     }
+
+    @Override
+    public String toString() {
+        return "ClientePF{" +
+                "clienteAtivo=" + super.clienteAtivo +
+                ", documento='" + super.documento + '\'' +
+                ", nome='" + this.nome + '\'' +
+                //", carteira=" + this.carteira +
+                '}';
+    }
 }

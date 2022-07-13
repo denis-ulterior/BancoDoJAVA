@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f7c4196-3046-418e-9cb7-f154c1686b18" name="Changes" comment="Expansao do projeto, implementações de classes e ajustes de assinaturas de metodos.">
+    <list default="true" id="2f7c4196-3046-418e-9cb7-f154c1686b18" name="Changes" comment="Ajustes de contas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/Banco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/carteira/Carteira.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/carteira/Carteira.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/conta/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cliente/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cliente/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cliente/ClientePF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ulteriorti/banco/cliente/ClientePF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657721026407</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ajustes de contas">
+      <created>1657721513212</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657721513212</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +177,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;out/production/bancoOO/br/com/ulteriorti/banco/cliente/Cliente.class" />
     <MESSAGE value="Fix IDE project configs" />
     <MESSAGE value="Expansao do projeto, implementações de classes e ajustes de assinaturas de metodos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Expansao do projeto, implementações de classes e ajustes de assinaturas de metodos." />
+    <MESSAGE value="Ajustes de contas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes de contas" />
   </component>
 </project>

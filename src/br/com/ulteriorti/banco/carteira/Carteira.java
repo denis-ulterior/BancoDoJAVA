@@ -2,6 +2,7 @@ package br.com.ulteriorti.banco.carteira;
 
 import br.com.ulteriorti.banco.cartao.CartaoCredito;
 import br.com.ulteriorti.banco.cartao.CartaoDebito;
+import br.com.ulteriorti.banco.cliente.Cliente;
 import br.com.ulteriorti.banco.cliente.ClientePF;
 import br.com.ulteriorti.banco.cliente.ClientePJ;
 import br.com.ulteriorti.banco.cliente.ICliente;
@@ -10,7 +11,7 @@ import br.com.ulteriorti.banco.conta.ContaPoupanca;
 
 public class Carteira implements ICarteira{
     protected static int contadorCarteiras = 1;
-    ICliente cliente;
+    Cliente cliente;
     int idCarteiraCliente;
     CartaoCredito cartaoCredito;
     CartaoDebito cartaoDebito;
@@ -45,5 +46,17 @@ public class Carteira implements ICarteira{
     @Override
     public void gerarCartaoCredito(int senha, Double limite) {
 
+    }
+
+    @Override
+    public String toString() {
+        return "Carteira{" +
+                "cliente=" + cliente +
+                ", idCarteiraCliente=" + idCarteiraCliente +
+                ", cartaoCredito=" + cartaoCredito +
+                ", cartaoDebito=" + cartaoDebito +
+                ", contaCorrente=" + contaCorrente +
+                ", contaPoupanca=" + contaPoupanca +
+                '}';
     }
 }

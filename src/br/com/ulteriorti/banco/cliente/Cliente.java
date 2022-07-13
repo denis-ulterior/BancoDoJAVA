@@ -4,11 +4,11 @@ import br.com.ulteriorti.banco.carteira.Carteira;
 import br.com.ulteriorti.banco.conta.ContaCorrente;
 import br.com.ulteriorti.banco.conta.ContaPoupanca;
 
- abstract class Cliente implements ICliente {
-    boolean clienteAtivo = true;
-    String documento;
-    String nome;
-    Carteira carteira;
+ public abstract class Cliente implements ICliente {
+    protected boolean clienteAtivo = true;
+    protected String documento;
+    protected String nome;
+    protected Carteira carteira;
 
     public Cliente(String nome){
         this.nome = nome;
@@ -40,7 +40,7 @@ import br.com.ulteriorti.banco.conta.ContaPoupanca;
 
      @Override
      public void detalhesCarteira() {
-         System.out.println(carteira);
+         System.out.println(this.carteira);
      }
 
  }
