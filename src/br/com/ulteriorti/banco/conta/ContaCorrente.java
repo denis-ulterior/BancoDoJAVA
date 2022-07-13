@@ -6,7 +6,7 @@ public class ContaCorrente extends Conta {
     public ContaCorrente() {
         super.conta = SEQUENCIA;
         SEQUENCIA++;
-        super.saldo = 0;
+        super.saldo = 0d;
         super.tipo = "cc";
     }
 }

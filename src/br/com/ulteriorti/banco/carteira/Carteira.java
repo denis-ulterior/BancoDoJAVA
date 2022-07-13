@@ -39,7 +39,7 @@ public class Carteira implements ICarteira{
 
     @Override
     public void criarContaPoupanca(int senha, Double depositoInical) {
-
+        this.contaPoupanca = new ContaPoupanca(senha, depositoInical);
     }
 
     @Override

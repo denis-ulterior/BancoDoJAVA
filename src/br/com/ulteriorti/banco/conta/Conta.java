@@ -5,7 +5,7 @@ public abstract class Conta implements IConta {
     protected static final int AGENCIA_PADRAO = 1;
     protected int agencia;
     protected int conta;
-    protected double saldo;
+    protected Double saldo;
     protected String tipo;
 
     public Conta() {
