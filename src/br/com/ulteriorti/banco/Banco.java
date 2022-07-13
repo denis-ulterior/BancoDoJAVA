@@ -17,6 +17,6 @@ public class Banco {
         cp.transferir(100,cc);
         cc.imprimirExtrato();
         cp.imprimirExtrato();
-
     }
+
 }
