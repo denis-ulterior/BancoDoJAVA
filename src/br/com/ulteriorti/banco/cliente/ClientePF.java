@@ -1,13 +1,23 @@
 package br.com.ulteriorti.banco.cliente;
 
-public class ClientePF extends Cliente{
-    @Override
-    public void getDocumento() {
+import br.com.ulteriorti.banco.carteira.Carteira;
+
+public class ClientePF extends Cliente {
+
+    public ClientePF(String nome, String cpf) {
+        super(nome);
+        super.carteira = new Carteira(this);
+        super.documento = cpf;
 
     }
 
     @Override
-    public void getNome() {
+    public void getDocumento() {
+        System.out.println(this.documento);
+    }
 
+    @Override
+    public void getNome() {
+        System.out.println(this.nome);
     }
 }

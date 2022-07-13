@@ -1,9 +1,9 @@
 package br.com.ulteriorti.banco.cartao;
 
 public interface ICartao {
-    void pagarCompra(Double valor);
+    boolean pagarCompra(Double valor);
 
-    void bloquear();
+    void bloquear(int senha);
 
 
 }
