@@ -12,11 +12,11 @@ import br.com.ulteriorti.banco.conta.ContaPoupanca;
 public class Carteira implements ICarteira{
     protected static int contadorCarteiras = 1;
     Cliente cliente;
-    int idCarteiraCliente;
-    CartaoCredito cartaoCredito;
-    CartaoDebito cartaoDebito;
-    ContaCorrente contaCorrente;
-    ContaPoupanca contaPoupanca;
+    protected int idCarteiraCliente;
+    protected CartaoCredito cartaoCredito;
+    protected CartaoDebito cartaoDebito;
+    protected ContaCorrente contaCorrente;
+    protected ContaPoupanca contaPoupanca;
 
     public Carteira(ClientePJ cliente) {
         this.cliente = cliente;
@@ -50,13 +50,14 @@ public class Carteira implements ICarteira{
 
     @Override
     public String toString() {
-        return "Carteira{" +
+        return "Carteira{\n" +
                 "cliente=" + cliente +
-                ", idCarteiraCliente=" + idCarteiraCliente +
-                ", cartaoCredito=" + cartaoCredito +
-                ", cartaoDebito=" + cartaoDebito +
+                "idCarteiraCliente=" + idCarteiraCliente +
                 ", contaCorrente=" + contaCorrente +
                 ", contaPoupanca=" + contaPoupanca +
+                ", cartaoCredito=" + cartaoCredito +
+                ", cartaoDebito=" + cartaoDebito +
+
                 '}';
     }
 }

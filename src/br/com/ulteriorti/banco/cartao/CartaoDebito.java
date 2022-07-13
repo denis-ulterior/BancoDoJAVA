@@ -14,4 +14,14 @@ public class CartaoDebito extends Cartao{
             return true;
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "\nCartaoDebito{\n" +
+                "contaDoCartao=" + contaDoCartao +
+                ", numeroDoCartao=" + numeroDoCartao +
+                ", codigoSeguranca=" + codigoSeguranca +
+                ", bloqueio=" + bloqueio +
+                "\n}\n";
+    }
 }

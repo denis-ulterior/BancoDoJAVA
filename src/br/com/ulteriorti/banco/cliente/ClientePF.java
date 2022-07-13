@@ -23,11 +23,11 @@ public class ClientePF extends Cliente {
 
     @Override
     public String toString() {
-        return "ClientePF{" +
+        return "ClientePF{\n" +
                 "clienteAtivo=" + super.clienteAtivo +
                 ", documento='" + super.documento + '\'' +
                 ", nome='" + this.nome + '\'' +
                 //", carteira=" + this.carteira +
-                '}';
+                "\n}\n";
     }
 }

@@ -1,6 +1,7 @@
 package br.com.ulteriorti.banco.cliente;
 
 import br.com.ulteriorti.banco.carteira.Carteira;
+import br.com.ulteriorti.banco.conta.Conta;
 import br.com.ulteriorti.banco.conta.ContaCorrente;
 import br.com.ulteriorti.banco.conta.ContaPoupanca;
 
@@ -19,9 +20,17 @@ import br.com.ulteriorti.banco.conta.ContaPoupanca;
     }
 
     @Override
-    public void cadatrarConta() {
-
+    public void cadastrarConta(int senha, Conta conta, Double depositoInical) {
+        if(conta instanceof ContaPoupanca){
+            this.carteira.criarContaPoupanca(senha,depositoInical);
+        }
     }
+     @Override
+     public void cadastrarConta(int senha, Conta conta) {
+         if(conta instanceof ContaCorrente){
+             this.carteira.criarContaCorrente(senha);
+         }
+     }
 
     @Override
     public void bloquearContas() {
@@ -42,5 +51,7 @@ import br.com.ulteriorti.banco.conta.ContaPoupanca;
      public void detalhesCarteira() {
          System.out.println(this.carteira);
      }
-
+    public void depositar(Double valor){
+        //todo
+    }
  }
